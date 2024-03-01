@@ -1,0 +1,21 @@
+1.数据放在data目录中json格式
+2.D:\AiTrains\LLaMA-Factory\data\dataset_info.json 中填写路径
+"train": {  //显示的名称
+    "file_name": "train.jsonl",  // 本目录下文件名称
+    "file_sha1": "647f4ad447bd993e4b6b6223d1be15208bab694a"  //不用修改
+  },
+
+3.src下运行train_web.py
+lang 选择zh
+模型名称选择
+模型路径填写
+微调方法
+-------
+设置重要训练参数
+数据路径设置 data文件目录  选择数据集
+学习率
+训练轮数
+计算类型
+保存间隔等
+
+
